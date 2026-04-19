@@ -1,0 +1,1536 @@
+{
+  "generated_at": "2026-04-18 22:26:48.970233",
+  "summary": {
+    "total_points": 225,
+    "wrong_way_points": 77,
+    "vehicles_total": 4,
+    "vehicles_wrong_way": 3,
+    "segments_affected": 12,
+    "high_risk_segments": 11,
+    "collision_risk_count": 3,
+    "critical_collisions": 2,
+    "danger_zones_count": 3
+  },
+  "segment_alerts": [
+    {
+      "edge_id": "432874005_249783313",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 4,
+      "vehicle_count": 1,
+      "vehicle_ids": [
+        "veh_wrongway"
+      ],
+      "mean_confidence": 98.0,
+      "max_confidence": 98.7,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:00:12",
+      "last_seen": "2024-01-01 09:00:18",
+      "centroid_lat": 28.635422,
+      "centroid_lon": 77.218436,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "249783293_249782337",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 5,
+      "vehicle_count": 1,
+      "vehicle_ids": [
+        "veh_003"
+      ],
+      "mean_confidence": 97.0,
+      "max_confidence": 97.0,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:00:54",
+      "last_seen": "2024-01-01 09:01:02",
+      "centroid_lat": 28.630373,
+      "centroid_lon": 77.219513,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "249783313_249783316",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 5,
+      "vehicle_count": 1,
+      "vehicle_ids": [
+        "veh_wrongway"
+      ],
+      "mean_confidence": 96.9,
+      "max_confidence": 99.4,
+      "mean_angular_diff": 177.0,
+      "first_seen": "2024-01-01 09:00:02",
+      "last_seen": "2024-01-01 09:00:10",
+      "centroid_lat": 28.635639,
+      "centroid_lon": 77.219273,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "345265121_432874005",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 7,
+      "vehicle_count": 2,
+      "vehicle_ids": [
+        "veh_wrongway",
+        "veh_uturn"
+      ],
+      "mean_confidence": 95.1,
+      "max_confidence": 100.0,
+      "mean_angular_diff": 177.0,
+      "first_seen": "2024-01-01 09:00:20",
+      "last_seen": "2024-01-01 09:02:12",
+      "centroid_lat": 28.634784,
+      "centroid_lon": 77.217506,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "249782337_10246421063",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 4,
+      "vehicle_count": 1,
+      "vehicle_ids": [
+        "veh_003"
+      ],
+      "mean_confidence": 93.1,
+      "max_confidence": 93.9,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:00:46",
+      "last_seen": "2024-01-01 09:00:52",
+      "centroid_lat": 28.630795,
+      "centroid_lon": 77.220138,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "249783308_345265121",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 8,
+      "vehicle_count": 2,
+      "vehicle_ids": [
+        "veh_wrongway",
+        "veh_uturn"
+      ],
+      "mean_confidence": 92.5,
+      "max_confidence": 100.0,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:00:32",
+      "last_seen": "2024-01-01 09:02:20",
+      "centroid_lat": 28.634366,
+      "centroid_lon": 77.217086,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "1869716945_267198392",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 12,
+      "vehicle_count": 3,
+      "vehicle_ids": [
+        "veh_wrongway",
+        "veh_uturn",
+        "veh_003"
+      ],
+      "mean_confidence": 89.2,
+      "max_confidence": 94.0,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:00:06",
+      "last_seen": "2024-01-01 09:02:50",
+      "centroid_lat": 28.634744,
+      "centroid_lon": 77.22042,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "249782349_249783308",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 8,
+      "vehicle_count": 2,
+      "vehicle_ids": [
+        "veh_wrongway",
+        "veh_uturn"
+      ],
+      "mean_confidence": 82.0,
+      "max_confidence": 82.0,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:00:42",
+      "last_seen": "2024-01-01 09:02:30",
+      "centroid_lat": 28.634122,
+      "centroid_lon": 77.217359,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "5681450581_249783293",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 4,
+      "vehicle_count": 1,
+      "vehicle_ids": [
+        "veh_003"
+      ],
+      "mean_confidence": 82.0,
+      "max_confidence": 82.0,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:01:06",
+      "last_seen": "2024-01-01 09:01:12",
+      "centroid_lat": 28.629888,
+      "centroid_lon": 77.219625,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "10246421063_249782331",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 5,
+      "vehicle_count": 1,
+      "vehicle_ids": [
+        "veh_003"
+      ],
+      "mean_confidence": 81.1,
+      "max_confidence": 85.0,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:00:34",
+      "last_seen": "2024-01-01 09:00:42",
+      "centroid_lat": 28.63134,
+      "centroid_lon": 77.221323,
+      "risk_level": "HIGH"
+    },
+    {
+      "edge_id": "249783291_5681450581",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 4,
+      "vehicle_count": 1,
+      "vehicle_ids": [
+        "veh_003"
+      ],
+      "mean_confidence": 79.6,
+      "max_confidence": 80.4,
+      "mean_angular_diff": 180.0,
+      "first_seen": "2024-01-01 09:01:16",
+      "last_seen": "2024-01-01 09:01:22",
+      "centroid_lat": 28.629983,
+      "centroid_lon": 77.220341,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "edge_id": "267198392_249782349",
+      "time_bucket": "2024-01-01 09:00:00",
+      "point_count": 11,
+      "vehicle_count": 3,
+      "vehicle_ids": [
+        "veh_wrongway",
+        "veh_uturn",
+        "veh_003"
+      ],
+      "mean_confidence": 73.9,
+      "max_confidence": 84.5,
+      "mean_angular_diff": 167.8,
+      "first_seen": "2024-01-01 09:00:04",
+      "last_seen": "2024-01-01 09:02:42",
+      "centroid_lat": 28.634556,
+      "centroid_lon": 77.219052,
+      "risk_level": "HIGH"
+    }
+  ],
+  "incidents": [
+    {
+      "vehicle_id": "veh_003",
+      "incident_index": 0,
+      "start_time": "2024-01-01 09:00:04",
+      "end_time": "2024-01-01 09:00:12",
+      "duration_seconds": 8,
+      "point_count": 5,
+      "mean_confidence": 74.5,
+      "max_confidence": 82.0,
+      "mean_angular_diff": 171.0,
+      "edge_ids": [
+        "267198392_249782349",
+        "1869716945_267198392"
+      ],
+      "centroid_lat": 28.634776,
+      "centroid_lon": 77.220303,
+      "confidence_components": {
+        "angular": 42.5,
+        "persistence": 15.0,
+        "snap_quality": 16.9,
+        "total": 74.5
+      },
+      "points": [
+        {
+          "lat": 28.6349075,
+          "lon": 77.2198366,
+          "timestamp": "2024-01-01 09:00:04",
+          "bearing": 107.8,
+          "confidence": 47.7,
+          "angular_diff": 135.2
+        },
+        {
+          "lat": 28.6348419,
+          "lon": 77.22007,
+          "timestamp": "2024-01-01 09:00:06",
+          "bearing": 107.8,
+          "confidence": 81.9,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6347763,
+          "lon": 77.2203034,
+          "timestamp": "2024-01-01 09:00:08",
+          "bearing": 107.8,
+          "confidence": 80.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6347107,
+          "lon": 77.2205369,
+          "timestamp": "2024-01-01 09:00:10",
+          "bearing": 107.8,
+          "confidence": 80.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6346451,
+          "lon": 77.2207703,
+          "timestamp": "2024-01-01 09:00:12",
+          "bearing": 107.8,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        }
+      ]
+    },
+    {
+      "vehicle_id": "veh_003",
+      "incident_index": 1,
+      "start_time": "2024-01-01 09:00:34",
+      "end_time": "2024-01-01 09:01:22",
+      "duration_seconds": 48,
+      "point_count": 22,
+      "mean_confidence": 86.8,
+      "max_confidence": 97.0,
+      "mean_angular_diff": 180.0,
+      "edge_ids": [
+        "10246421063_249782331",
+        "249782337_10246421063",
+        "249783293_249782337",
+        "5681450581_249783293",
+        "249783291_5681450581"
+      ],
+      "centroid_lat": 28.63051,
+      "centroid_lon": 77.220209,
+      "confidence_components": {
+        "angular": 50.0,
+        "persistence": 18.8,
+        "snap_quality": 18.0,
+        "total": 86.8
+      },
+      "points": [
+        {
+          "lat": 28.631635,
+          "lon": 77.2217092,
+          "timestamp": "2024-01-01 09:00:34",
+          "bearing": 228.9,
+          "confidence": 85.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6314873,
+          "lon": 77.221516,
+          "timestamp": "2024-01-01 09:00:36",
+          "bearing": 228.9,
+          "confidence": 80.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6313397,
+          "lon": 77.2213229,
+          "timestamp": "2024-01-01 09:00:38",
+          "bearing": 228.9,
+          "confidence": 79.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.631192,
+          "lon": 77.2211297,
+          "timestamp": "2024-01-01 09:00:40",
+          "bearing": 228.9,
+          "confidence": 79.6,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6310444,
+          "lon": 77.2209366,
+          "timestamp": "2024-01-01 09:00:42",
+          "bearing": 228.9,
+          "confidence": 81.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6308559,
+          "lon": 77.2205012,
+          "timestamp": "2024-01-01 09:00:46",
+          "bearing": 259.1,
+          "confidence": 93.9,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6308151,
+          "lon": 77.2202589,
+          "timestamp": "2024-01-01 09:00:48",
+          "bearing": 259.1,
+          "confidence": 92.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6307744,
+          "lon": 77.2200167,
+          "timestamp": "2024-01-01 09:00:50",
+          "bearing": 259.1,
+          "confidence": 92.3,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6307336,
+          "lon": 77.2197744,
+          "timestamp": "2024-01-01 09:00:52",
+          "bearing": 259.1,
+          "confidence": 93.9,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6306928,
+          "lon": 77.2195322,
+          "timestamp": "2024-01-01 09:00:54",
+          "bearing": 182.9,
+          "confidence": 97.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.630533,
+          "lon": 77.2195228,
+          "timestamp": "2024-01-01 09:00:56",
+          "bearing": 182.9,
+          "confidence": 97.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6303732,
+          "lon": 77.2195134,
+          "timestamp": "2024-01-01 09:00:58",
+          "bearing": 182.9,
+          "confidence": 97.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6302134,
+          "lon": 77.2195041,
+          "timestamp": "2024-01-01 09:01:00",
+          "bearing": 182.9,
+          "confidence": 97.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6300536,
+          "lon": 77.2194947,
+          "timestamp": "2024-01-01 09:01:02",
+          "bearing": 182.9,
+          "confidence": 97.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6298914,
+          "lon": 77.2195413,
+          "timestamp": "2024-01-01 09:01:06",
+          "bearing": 92.7,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6298891,
+          "lon": 77.2195974,
+          "timestamp": "2024-01-01 09:01:08",
+          "bearing": 92.7,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6298867,
+          "lon": 77.2196534,
+          "timestamp": "2024-01-01 09:01:10",
+          "bearing": 92.7,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6298844,
+          "lon": 77.2197095,
+          "timestamp": "2024-01-01 09:01:12",
+          "bearing": 92.7,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6299222,
+          "lon": 77.2199959,
+          "timestamp": "2024-01-01 09:01:16",
+          "bearing": 78.7,
+          "confidence": 80.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6299625,
+          "lon": 77.2202263,
+          "timestamp": "2024-01-01 09:01:18",
+          "bearing": 78.7,
+          "confidence": 79.1,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6300027,
+          "lon": 77.2204566,
+          "timestamp": "2024-01-01 09:01:20",
+          "bearing": 78.7,
+          "confidence": 79.1,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.630043,
+          "lon": 77.220687,
+          "timestamp": "2024-01-01 09:01:22",
+          "bearing": 78.7,
+          "confidence": 79.6,
+          "angular_diff": 180.0
+        }
+      ]
+    },
+    {
+      "vehicle_id": "veh_uturn",
+      "incident_index": 0,
+      "start_time": "2024-01-01 09:02:12",
+      "end_time": "2024-01-01 09:02:50",
+      "duration_seconds": 38,
+      "point_count": 18,
+      "mean_confidence": 83.3,
+      "max_confidence": 94.0,
+      "mean_angular_diff": 176.9,
+      "edge_ids": [
+        "345265121_432874005",
+        "249783308_345265121",
+        "249782349_249783308",
+        "267198392_249782349",
+        "1869716945_267198392"
+      ],
+      "centroid_lat": 28.634442,
+      "centroid_lon": 77.218414,
+      "confidence_components": {
+        "angular": 47.4,
+        "persistence": 20.3,
+        "snap_quality": 15.5,
+        "total": 83.3
+      },
+      "points": [
+        {
+          "lat": 28.6344291,
+          "lon": 77.2171312,
+          "timestamp": "2024-01-01 09:02:12",
+          "bearing": 212.3,
+          "confidence": 76.2,
+          "angular_diff": 169.5
+        },
+        {
+          "lat": 28.6344039,
+          "lon": 77.2171131,
+          "timestamp": "2024-01-01 09:02:14",
+          "bearing": 212.3,
+          "confidence": 85.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6343787,
+          "lon": 77.217095,
+          "timestamp": "2024-01-01 09:02:16",
+          "bearing": 212.3,
+          "confidence": 85.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6343535,
+          "lon": 77.2170768,
+          "timestamp": "2024-01-01 09:02:18",
+          "bearing": 212.3,
+          "confidence": 85.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6343283,
+          "lon": 77.2170587,
+          "timestamp": "2024-01-01 09:02:20",
+          "bearing": 212.3,
+          "confidence": 85.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6342305,
+          "lon": 77.217168,
+          "timestamp": "2024-01-01 09:02:24",
+          "bearing": 123.0,
+          "confidence": 81.9,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6341579,
+          "lon": 77.2172954,
+          "timestamp": "2024-01-01 09:02:26",
+          "bearing": 123.0,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6340852,
+          "lon": 77.2174228,
+          "timestamp": "2024-01-01 09:02:28",
+          "bearing": 123.0,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6340126,
+          "lon": 77.2175502,
+          "timestamp": "2024-01-01 09:02:30",
+          "bearing": 123.0,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6341335,
+          "lon": 77.2181094,
+          "timestamp": "2024-01-01 09:02:34",
+          "bearing": 63.0,
+          "confidence": 83.6,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.634327,
+          "lon": 77.2185412,
+          "timestamp": "2024-01-01 09:02:36",
+          "bearing": 63.0,
+          "confidence": 77.1,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6345205,
+          "lon": 77.218973,
+          "timestamp": "2024-01-01 09:02:38",
+          "bearing": 63.0,
+          "confidence": 77.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.634714,
+          "lon": 77.2194048,
+          "timestamp": "2024-01-01 09:02:40",
+          "bearing": 63.0,
+          "confidence": 84.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6349075,
+          "lon": 77.2198366,
+          "timestamp": "2024-01-01 09:02:42",
+          "bearing": 107.8,
+          "confidence": 59.7,
+          "angular_diff": 135.2
+        },
+        {
+          "lat": 28.6348419,
+          "lon": 77.22007,
+          "timestamp": "2024-01-01 09:02:44",
+          "bearing": 107.8,
+          "confidence": 93.9,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6347763,
+          "lon": 77.2203034,
+          "timestamp": "2024-01-01 09:02:46",
+          "bearing": 107.8,
+          "confidence": 92.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6347107,
+          "lon": 77.2205369,
+          "timestamp": "2024-01-01 09:02:48",
+          "bearing": 107.8,
+          "confidence": 92.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6346451,
+          "lon": 77.2207703,
+          "timestamp": "2024-01-01 09:02:50",
+          "bearing": 107.8,
+          "confidence": 94.0,
+          "angular_diff": 180.0
+        }
+      ]
+    },
+    {
+      "vehicle_id": "veh_wrongway",
+      "incident_index": 0,
+      "start_time": "2024-01-01 09:00:02",
+      "end_time": "2024-01-01 09:01:08",
+      "duration_seconds": 66,
+      "point_count": 32,
+      "mean_confidence": 92.2,
+      "max_confidence": 100.0,
+      "mean_angular_diff": 177.8,
+      "edge_ids": [
+        "249783313_249783316",
+        "432874005_249783313",
+        "345265121_432874005",
+        "249783308_345265121",
+        "249782349_249783308",
+        "267198392_249782349",
+        "1869716945_267198392"
+      ],
+      "centroid_lat": 28.634827,
+      "centroid_lon": 77.218433,
+      "confidence_components": {
+        "angular": 48.2,
+        "persistence": 30,
+        "snap_quality": 17.1,
+        "total": 95.2
+      },
+      "points": [
+        {
+          "lat": 28.6356925,
+          "lon": 77.2196799,
+          "timestamp": "2024-01-01 09:00:02",
+          "bearing": 261.5,
+          "confidence": 99.3,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6356659,
+          "lon": 77.2194765,
+          "timestamp": "2024-01-01 09:00:04",
+          "bearing": 261.5,
+          "confidence": 99.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6356393,
+          "lon": 77.2192731,
+          "timestamp": "2024-01-01 09:00:06",
+          "bearing": 261.5,
+          "confidence": 99.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6356127,
+          "lon": 77.2190697,
+          "timestamp": "2024-01-01 09:00:08",
+          "bearing": 261.5,
+          "confidence": 99.2,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6355861,
+          "lon": 77.2188663,
+          "timestamp": "2024-01-01 09:00:10",
+          "bearing": 246.5,
+          "confidence": 87.5,
+          "angular_diff": 165.0
+        },
+        {
+          "lat": 28.6355203,
+          "lon": 77.2186941,
+          "timestamp": "2024-01-01 09:00:12",
+          "bearing": 246.5,
+          "confidence": 98.2,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6354545,
+          "lon": 77.218522,
+          "timestamp": "2024-01-01 09:00:14",
+          "bearing": 246.5,
+          "confidence": 97.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6353887,
+          "lon": 77.2183498,
+          "timestamp": "2024-01-01 09:00:16",
+          "bearing": 246.5,
+          "confidence": 97.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6353229,
+          "lon": 77.2181777,
+          "timestamp": "2024-01-01 09:00:18",
+          "bearing": 246.5,
+          "confidence": 98.7,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6352571,
+          "lon": 77.2180055,
+          "timestamp": "2024-01-01 09:00:20",
+          "bearing": 222.8,
+          "confidence": 100.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6350915,
+          "lon": 77.2178306,
+          "timestamp": "2024-01-01 09:00:22",
+          "bearing": 222.8,
+          "confidence": 99.7,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6349259,
+          "lon": 77.2176558,
+          "timestamp": "2024-01-01 09:00:24",
+          "bearing": 222.8,
+          "confidence": 99.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6347603,
+          "lon": 77.2174809,
+          "timestamp": "2024-01-01 09:00:26",
+          "bearing": 222.8,
+          "confidence": 99.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6345947,
+          "lon": 77.2173061,
+          "timestamp": "2024-01-01 09:00:28",
+          "bearing": 222.8,
+          "confidence": 99.7,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6344291,
+          "lon": 77.2171312,
+          "timestamp": "2024-01-01 09:00:30",
+          "bearing": 212.3,
+          "confidence": 91.2,
+          "angular_diff": 169.5
+        },
+        {
+          "lat": 28.6344039,
+          "lon": 77.2171131,
+          "timestamp": "2024-01-01 09:00:32",
+          "bearing": 212.3,
+          "confidence": 100.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6343787,
+          "lon": 77.217095,
+          "timestamp": "2024-01-01 09:00:34",
+          "bearing": 212.3,
+          "confidence": 100.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6343535,
+          "lon": 77.2170768,
+          "timestamp": "2024-01-01 09:00:36",
+          "bearing": 212.3,
+          "confidence": 100.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6343283,
+          "lon": 77.2170587,
+          "timestamp": "2024-01-01 09:00:38",
+          "bearing": 212.3,
+          "confidence": 100.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6342305,
+          "lon": 77.217168,
+          "timestamp": "2024-01-01 09:00:42",
+          "bearing": 123.0,
+          "confidence": 81.9,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6341579,
+          "lon": 77.2172954,
+          "timestamp": "2024-01-01 09:00:44",
+          "bearing": 123.0,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6340852,
+          "lon": 77.2174228,
+          "timestamp": "2024-01-01 09:00:46",
+          "bearing": 123.0,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6340126,
+          "lon": 77.2175502,
+          "timestamp": "2024-01-01 09:00:48",
+          "bearing": 123.0,
+          "confidence": 82.0,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6341335,
+          "lon": 77.2181094,
+          "timestamp": "2024-01-01 09:00:52",
+          "bearing": 63.0,
+          "confidence": 83.6,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.634327,
+          "lon": 77.2185412,
+          "timestamp": "2024-01-01 09:00:54",
+          "bearing": 63.0,
+          "confidence": 77.1,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6345205,
+          "lon": 77.218973,
+          "timestamp": "2024-01-01 09:00:56",
+          "bearing": 63.0,
+          "confidence": 77.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.634714,
+          "lon": 77.2194048,
+          "timestamp": "2024-01-01 09:00:58",
+          "bearing": 63.0,
+          "confidence": 84.5,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6349075,
+          "lon": 77.2198366,
+          "timestamp": "2024-01-01 09:01:00",
+          "bearing": 107.8,
+          "confidence": 59.7,
+          "angular_diff": 135.2
+        },
+        {
+          "lat": 28.6348419,
+          "lon": 77.22007,
+          "timestamp": "2024-01-01 09:01:02",
+          "bearing": 107.8,
+          "confidence": 93.9,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6347763,
+          "lon": 77.2203034,
+          "timestamp": "2024-01-01 09:01:04",
+          "bearing": 107.8,
+          "confidence": 92.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6347107,
+          "lon": 77.2205369,
+          "timestamp": "2024-01-01 09:01:06",
+          "bearing": 107.8,
+          "confidence": 92.4,
+          "angular_diff": 180.0
+        },
+        {
+          "lat": 28.6346451,
+          "lon": 77.2207703,
+          "timestamp": "2024-01-01 09:01:08",
+          "bearing": 107.8,
+          "confidence": 94.0,
+          "angular_diff": 180.0
+        }
+      ]
+    }
+  ],
+  "heatmap_points": [
+    {
+      "lat": 28.6356925,
+      "lon": 77.2196799,
+      "weight": 0.993
+    },
+    {
+      "lat": 28.6356659,
+      "lon": 77.2194765,
+      "weight": 0.9940000000000001
+    },
+    {
+      "lat": 28.6356393,
+      "lon": 77.2192731,
+      "weight": 0.99
+    },
+    {
+      "lat": 28.6356127,
+      "lon": 77.2190697,
+      "weight": 0.992
+    },
+    {
+      "lat": 28.6355861,
+      "lon": 77.2188663,
+      "weight": 0.875
+    },
+    {
+      "lat": 28.6355203,
+      "lon": 77.2186941,
+      "weight": 0.982
+    },
+    {
+      "lat": 28.6354545,
+      "lon": 77.218522,
+      "weight": 0.975
+    },
+    {
+      "lat": 28.6353887,
+      "lon": 77.2183498,
+      "weight": 0.975
+    },
+    {
+      "lat": 28.6353229,
+      "lon": 77.2181777,
+      "weight": 0.987
+    },
+    {
+      "lat": 28.6352571,
+      "lon": 77.2180055,
+      "weight": 1.0
+    },
+    {
+      "lat": 28.6350915,
+      "lon": 77.2178306,
+      "weight": 0.997
+    },
+    {
+      "lat": 28.6349259,
+      "lon": 77.2176558,
+      "weight": 0.995
+    },
+    {
+      "lat": 28.6347603,
+      "lon": 77.2174809,
+      "weight": 0.995
+    },
+    {
+      "lat": 28.6345947,
+      "lon": 77.2173061,
+      "weight": 0.997
+    },
+    {
+      "lat": 28.6344291,
+      "lon": 77.2171312,
+      "weight": 0.912
+    },
+    {
+      "lat": 28.6344039,
+      "lon": 77.2171131,
+      "weight": 1.0
+    },
+    {
+      "lat": 28.6343787,
+      "lon": 77.217095,
+      "weight": 1.0
+    },
+    {
+      "lat": 28.6343535,
+      "lon": 77.2170768,
+      "weight": 1.0
+    },
+    {
+      "lat": 28.6343283,
+      "lon": 77.2170587,
+      "weight": 1.0
+    },
+    {
+      "lat": 28.6342305,
+      "lon": 77.217168,
+      "weight": 0.8190000000000001
+    },
+    {
+      "lat": 28.6341579,
+      "lon": 77.2172954,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6340852,
+      "lon": 77.2174228,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6340126,
+      "lon": 77.2175502,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6341335,
+      "lon": 77.2181094,
+      "weight": 0.836
+    },
+    {
+      "lat": 28.634327,
+      "lon": 77.2185412,
+      "weight": 0.7709999999999999
+    },
+    {
+      "lat": 28.6345205,
+      "lon": 77.218973,
+      "weight": 0.775
+    },
+    {
+      "lat": 28.634714,
+      "lon": 77.2194048,
+      "weight": 0.845
+    },
+    {
+      "lat": 28.6349075,
+      "lon": 77.2198366,
+      "weight": 0.597
+    },
+    {
+      "lat": 28.6348419,
+      "lon": 77.22007,
+      "weight": 0.9390000000000001
+    },
+    {
+      "lat": 28.6347763,
+      "lon": 77.2203034,
+      "weight": 0.924
+    },
+    {
+      "lat": 28.6347107,
+      "lon": 77.2205369,
+      "weight": 0.924
+    },
+    {
+      "lat": 28.6346451,
+      "lon": 77.2207703,
+      "weight": 0.94
+    },
+    {
+      "lat": 28.6344291,
+      "lon": 77.2171312,
+      "weight": 0.762
+    },
+    {
+      "lat": 28.6344039,
+      "lon": 77.2171131,
+      "weight": 0.85
+    },
+    {
+      "lat": 28.6343787,
+      "lon": 77.217095,
+      "weight": 0.85
+    },
+    {
+      "lat": 28.6343535,
+      "lon": 77.2170768,
+      "weight": 0.85
+    },
+    {
+      "lat": 28.6343283,
+      "lon": 77.2170587,
+      "weight": 0.85
+    },
+    {
+      "lat": 28.6342305,
+      "lon": 77.217168,
+      "weight": 0.8190000000000001
+    },
+    {
+      "lat": 28.6341579,
+      "lon": 77.2172954,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6340852,
+      "lon": 77.2174228,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6340126,
+      "lon": 77.2175502,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6341335,
+      "lon": 77.2181094,
+      "weight": 0.836
+    },
+    {
+      "lat": 28.634327,
+      "lon": 77.2185412,
+      "weight": 0.7709999999999999
+    },
+    {
+      "lat": 28.6345205,
+      "lon": 77.218973,
+      "weight": 0.775
+    },
+    {
+      "lat": 28.634714,
+      "lon": 77.2194048,
+      "weight": 0.845
+    },
+    {
+      "lat": 28.6349075,
+      "lon": 77.2198366,
+      "weight": 0.597
+    },
+    {
+      "lat": 28.6348419,
+      "lon": 77.22007,
+      "weight": 0.9390000000000001
+    },
+    {
+      "lat": 28.6347763,
+      "lon": 77.2203034,
+      "weight": 0.924
+    },
+    {
+      "lat": 28.6347107,
+      "lon": 77.2205369,
+      "weight": 0.924
+    },
+    {
+      "lat": 28.6346451,
+      "lon": 77.2207703,
+      "weight": 0.94
+    },
+    {
+      "lat": 28.6349075,
+      "lon": 77.2198366,
+      "weight": 0.47700000000000004
+    },
+    {
+      "lat": 28.6348419,
+      "lon": 77.22007,
+      "weight": 0.8190000000000001
+    },
+    {
+      "lat": 28.6347763,
+      "lon": 77.2203034,
+      "weight": 0.804
+    },
+    {
+      "lat": 28.6347107,
+      "lon": 77.2205369,
+      "weight": 0.804
+    },
+    {
+      "lat": 28.6346451,
+      "lon": 77.2207703,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.631635,
+      "lon": 77.2217092,
+      "weight": 0.85
+    },
+    {
+      "lat": 28.6314873,
+      "lon": 77.221516,
+      "weight": 0.804
+    },
+    {
+      "lat": 28.6313397,
+      "lon": 77.2213229,
+      "weight": 0.79
+    },
+    {
+      "lat": 28.631192,
+      "lon": 77.2211297,
+      "weight": 0.7959999999999999
+    },
+    {
+      "lat": 28.6310444,
+      "lon": 77.2209366,
+      "weight": 0.815
+    },
+    {
+      "lat": 28.6308559,
+      "lon": 77.2205012,
+      "weight": 0.9390000000000001
+    },
+    {
+      "lat": 28.6308151,
+      "lon": 77.2202589,
+      "weight": 0.924
+    },
+    {
+      "lat": 28.6307744,
+      "lon": 77.2200167,
+      "weight": 0.9229999999999999
+    },
+    {
+      "lat": 28.6307336,
+      "lon": 77.2197744,
+      "weight": 0.9390000000000001
+    },
+    {
+      "lat": 28.6306928,
+      "lon": 77.2195322,
+      "weight": 0.97
+    },
+    {
+      "lat": 28.630533,
+      "lon": 77.2195228,
+      "weight": 0.97
+    },
+    {
+      "lat": 28.6303732,
+      "lon": 77.2195134,
+      "weight": 0.97
+    },
+    {
+      "lat": 28.6302134,
+      "lon": 77.2195041,
+      "weight": 0.97
+    },
+    {
+      "lat": 28.6300536,
+      "lon": 77.2194947,
+      "weight": 0.97
+    },
+    {
+      "lat": 28.6298914,
+      "lon": 77.2195413,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6298891,
+      "lon": 77.2195974,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6298867,
+      "lon": 77.2196534,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6298844,
+      "lon": 77.2197095,
+      "weight": 0.82
+    },
+    {
+      "lat": 28.6299222,
+      "lon": 77.2199959,
+      "weight": 0.804
+    },
+    {
+      "lat": 28.6299625,
+      "lon": 77.2202263,
+      "weight": 0.7909999999999999
+    },
+    {
+      "lat": 28.6300027,
+      "lon": 77.2204566,
+      "weight": 0.7909999999999999
+    },
+    {
+      "lat": 28.630043,
+      "lon": 77.220687,
+      "weight": 0.7959999999999999
+    }
+  ],
+  "danger_zones": [
+    {
+      "vehicle_id": "veh_003",
+      "from_timestamp": "2024-01-01 09:01:22",
+      "from_lat": 28.630043,
+      "from_lon": 77.220687,
+      "bearing": 78.7,
+      "speed_kmh": 27.0,
+      "predicted_path": [
+        {
+          "lat": 28.630069,
+          "lon": 77.220838,
+          "t_plus_s": 2
+        },
+        {
+          "lat": 28.630095,
+          "lon": 77.220989,
+          "t_plus_s": 4
+        },
+        {
+          "lat": 28.630121,
+          "lon": 77.22114,
+          "t_plus_s": 6
+        },
+        {
+          "lat": 28.630147,
+          "lon": 77.221291,
+          "t_plus_s": 8
+        },
+        {
+          "lat": 28.630173,
+          "lon": 77.221442,
+          "t_plus_s": 10
+        }
+      ]
+    },
+    {
+      "vehicle_id": "veh_uturn",
+      "from_timestamp": "2024-01-01 09:02:50",
+      "from_lat": 28.6346451,
+      "from_lon": 77.2207703,
+      "bearing": 107.8,
+      "speed_kmh": 34.8,
+      "predicted_path": [
+        {
+          "lat": 28.634592,
+          "lon": 77.220959,
+          "t_plus_s": 2
+        },
+        {
+          "lat": 28.634539,
+          "lon": 77.221148,
+          "t_plus_s": 4
+        },
+        {
+          "lat": 28.634486,
+          "lon": 77.221337,
+          "t_plus_s": 6
+        },
+        {
+          "lat": 28.634433,
+          "lon": 77.221526,
+          "t_plus_s": 8
+        },
+        {
+          "lat": 28.63438,
+          "lon": 77.221715,
+          "t_plus_s": 10
+        }
+      ]
+    },
+    {
+      "vehicle_id": "veh_wrongway",
+      "from_timestamp": "2024-01-01 09:01:08",
+      "from_lat": 28.6346451,
+      "from_lon": 77.2207703,
+      "bearing": 107.8,
+      "speed_kmh": 29.4,
+      "predicted_path": [
+        {
+          "lat": 28.6346,
+          "lon": 77.22093,
+          "t_plus_s": 2
+        },
+        {
+          "lat": 28.634555,
+          "lon": 77.22109,
+          "t_plus_s": 4
+        },
+        {
+          "lat": 28.63451,
+          "lon": 77.22125,
+          "t_plus_s": 6
+        },
+        {
+          "lat": 28.634465,
+          "lon": 77.22141,
+          "t_plus_s": 8
+        },
+        {
+          "lat": 28.63442,
+          "lon": 77.22157,
+          "t_plus_s": 10
+        }
+      ]
+    }
+  ],
+  "collision_risks": [
+    {
+      "vehicle_a": "veh_wrongway",
+      "vehicle_b": "veh_001",
+      "label_a": "wrong_way",
+      "label_b": "normal",
+      "collision_type": "ww_vs_normal",
+      "timestamp": "2024-01-01 09:00:48",
+      "edge_id": "249782349_249783308",
+      "distance_m": 14.8,
+      "time_diff_s": 4.0,
+      "lat_a": 28.6340126,
+      "lon_a": 77.2175502,
+      "bearing_a": 123.0,
+      "lat_b": 28.6340852,
+      "lon_b": 77.2174228,
+      "bearing_b": 303.0,
+      "centroid_lat": 28.634049,
+      "centroid_lon": 77.217487,
+      "severity": "CRITICAL",
+      "wrong_way_vehicle": "veh_wrongway",
+      "normal_vehicle": "veh_001",
+      "ww_lat": 28.6340126,
+      "ww_lon": 77.2175502,
+      "ww_bearing": 123.0,
+      "normal_lat": 28.6340852,
+      "normal_lon": 77.2174228,
+      "normal_bearing": 303.0
+    },
+    {
+      "vehicle_a": "veh_wrongway",
+      "vehicle_b": "veh_001",
+      "label_a": "wrong_way",
+      "label_b": "normal",
+      "collision_type": "ww_vs_normal",
+      "timestamp": "2024-01-01 09:00:44",
+      "edge_id": "249782349_249783308",
+      "distance_m": 29.7,
+      "time_diff_s": 2.0,
+      "lat_a": 28.6341579,
+      "lon_a": 77.2172954,
+      "bearing_a": 123.0,
+      "lat_b": 28.6340126,
+      "lon_b": 77.2175502,
+      "bearing_b": 303.0,
+      "centroid_lat": 28.634085,
+      "centroid_lon": 77.217423,
+      "severity": "CRITICAL",
+      "wrong_way_vehicle": "veh_wrongway",
+      "normal_vehicle": "veh_001",
+      "ww_lat": 28.6341579,
+      "ww_lon": 77.2172954,
+      "ww_bearing": 123.0,
+      "normal_lat": 28.6340126,
+      "normal_lon": 77.2175502,
+      "normal_bearing": 303.0
+    },
+    {
+      "vehicle_a": "veh_wrongway",
+      "vehicle_b": "veh_001",
+      "label_a": "wrong_way",
+      "label_b": "normal",
+      "collision_type": "ww_vs_normal",
+      "timestamp": "2024-01-01 09:00:42",
+      "edge_id": "249782349_249783308",
+      "distance_m": 44.5,
+      "time_diff_s": 0.0,
+      "lat_a": 28.6342305,
+      "lon_a": 77.217168,
+      "bearing_a": 123.0,
+      "lat_b": 28.6340126,
+      "lon_b": 77.2175502,
+      "bearing_b": 303.0,
+      "centroid_lat": 28.634122,
+      "centroid_lon": 77.217359,
+      "severity": "HIGH",
+      "wrong_way_vehicle": "veh_wrongway",
+      "normal_vehicle": "veh_001",
+      "ww_lat": 28.6342305,
+      "ww_lon": 77.217168,
+      "ww_bearing": 123.0,
+      "normal_lat": 28.6340126,
+      "normal_lon": 77.2175502,
+      "normal_bearing": 303.0
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How It Works</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1a1a2e; color: white;
+      max-width: 800px; margin: 60px auto; padding: 0 20px;
+    }
+    h1 { color: #00d4ff; }
+    h2 { color: #00ff88; font-size: 16px; margin-top: 30px; }
+    p, li { font-size: 14px; line-height: 1.7; color: #ccc; }
+    .box {
+      background: rgba(255,255,255,0.05);
+      border-left: 4px solid #00d4ff;
+      padding: 12px 16px; border-radius: 6px; margin: 16px 0;
+    }
+    .red { border-color: #ff2244; }
+    .yellow { border-color: #ffcc00; }
+    a {
+      display: inline-block; margin-top: 30px;
+      background: #00d4ff; color: #000;
+      padding: 10px 24px; border-radius: 20px;
+      font-weight: bold; text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Wrong-Way Driver Detection — Beyond Ramps</h1>
+<p>A lightweight, sensor-free system that detects wrong-way vehicles
+using GPS bearing vs. OSM road geometry. No cameras. No ML model.
+Works anywhere with open map data.</p>
+
+<h2>HOW IT WORKS</h2>
+<div class="box">
+  <strong>Step 1 — Road geometry from OSM</strong>
+  <p>We pull the real road network using OpenStreetMap via osmnx.
+  Each road segment has a known allowed travel direction (bearing).</p>
+</div>
+<div class="box">
+  <strong>Step 2 — Vehicle bearing from GPS</strong>
+  <p>From consecutive GPS points we compute the vehicle's heading
+  using the haversine bearing formula.</p>
+</div>
+<div class="box">
+  <strong>Step 3 — Compare and flag</strong>
+  <p>If a vehicle's bearing differs from the road's allowed direction
+  by more than 120° for 3+ consecutive points, it is flagged
+  as a wrong-way intruder.</p>
+</div>
+
+<h2>FALSE POSITIVE HANDLING</h2>
+<div class="box yellow">
+  <strong>Problem:</strong> Temporary road works or diversions may
+  cause legitimate vehicles to appear wrong-way.<br><br>
+  <strong>Mitigation:</strong> The 3-point persistence filter reduces
+  one-off GPS noise. In production, OSM live data or a
+  known-diversion feed would whitelist these segments temporarily.
+</div>
+<div class="box yellow">
+  <strong>Problem:</strong> U-turns near intersections can trigger
+  a false flag.<br><br>
+  <strong>Mitigation:</strong> Suppress alerts within 20m of an
+  intersection node where U-turns are permitted.
+</div>
+
+<h2>WHY THIS MATTERS</h2>
+<ul>
+  <li>Works on urban grids, not just freeway ramps</li>
+  <li>No expensive sensors — just GPS + open map data</li>
+  <li>Applicable to fleet safety, ride-hailing, micromobility</li>
+  <li>Alerts can be pushed to surrounding connected vehicles in real time</li>
+</ul>
+
+<a href="playback.html">▶ Launch Live Demo</a>
+
+</body>
+</html>
